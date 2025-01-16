@@ -74,7 +74,7 @@ class ExcelProcessor:
 #Demonstrating RAG system
 if __name__ == "__main__":
     # Define file paths and API key
-    API_KEY = "OPEN_API_KEY"
+    #API_KEY = "OPEN_API_KEY"
     INPUT_FILE = "C:/Users/lleon/OneDrive/Desktop/test 2/EmployeeData.xlsx"
     OUTPUT_FILE = "C:/Users/lleon/OneDrive/Desktop/test 2/summary.txt"
 
