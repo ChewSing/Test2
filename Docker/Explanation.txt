@@ -1,0 +1,23 @@
+Explanation
+Step 1:
+#Use Python base image
+FROM python:3.10-slim
+- This ensure the container has Python pre-installed.
+
+Step 2:
+#Set working directory
+WORKDIR /app
+- Create a standalone workspace for the application inside the container.
+
+Step 3:
+#Copy application files
+COPY app.py
+- Ensure python script is available in the container.
+
+Step 4:
+#Run the Python application
+CMD ["python","app.py"]
+- Ensures that the application runs when the container starts.
+
+DockerHub username:chewsing
+
